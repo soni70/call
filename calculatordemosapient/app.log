@@ -1,0 +1,23 @@
+2021-09-22 12:02:04.389  INFO 32944 --- [main] sapient.demo.CalculatorDemoApplication   : Starting CalculatorDemoApplication using Java 15.0.2 on DESKTOP-S2F3DST with PID 32944 (C:\Users\DDELL\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\calculatordemosapient\target\classes started by DDELL in C:\Users\DDELL\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\calculatordemosapient)
+2021-09-22 12:02:04.402  INFO 32944 --- [main] sapient.demo.CalculatorDemoApplication   : No active profile set, falling back to default profiles: default
+2021-09-22 12:02:17.451  INFO 13280 --- [main] sapient.demo.CalculatorDemoApplication   : Starting CalculatorDemoApplication using Java 15.0.2 on DESKTOP-S2F3DST with PID 13280 (C:\Users\DDELL\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\calculatordemosapient\target\classes started by DDELL in C:\Users\DDELL\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\calculatordemosapient)
+2021-09-22 12:02:17.457  INFO 13280 --- [main] sapient.demo.CalculatorDemoApplication   : No active profile set, falling back to default profiles: default
+2021-09-22 12:02:18.723  INFO 13280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-22 12:02:18.830  INFO 13280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 1 JPA repository interfaces.
+2021-09-22 12:02:19.930  INFO 13280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8092 (http)
+2021-09-22 12:02:19.961  INFO 13280 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-22 12:02:19.964  INFO 13280 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-22 12:02:20.286  INFO 13280 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-22 12:02:20.287  INFO 13280 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2745 ms
+2021-09-22 12:02:20.457  INFO 13280 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-22 12:02:20.971  INFO 13280 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-22 12:02:20.980  INFO 13280 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb/springsecuritydemo?useSSL=false'
+2021-09-22 12:02:21.411  INFO 13280 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-22 12:02:21.565  INFO 13280 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-22 12:02:22.198  INFO 13280 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-22 12:02:22.668  INFO 13280 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-22 12:02:23.987  INFO 13280 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-22 12:02:24.005  INFO 13280 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-22 12:02:24.473  WARN 13280 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-22 12:02:25.064  INFO 13280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8092 (http) with context path ''
+2021-09-22 12:02:25.077  INFO 13280 --- [main] sapient.demo.CalculatorDemoApplication   : Started CalculatorDemoApplication in 8.269 seconds (JVM running for 9.413)
